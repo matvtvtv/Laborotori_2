@@ -9,9 +9,6 @@
 	vertical-align: middle;
 }
  
-.table tr:hover td {
-	background: #fffabe;
-}
 
 .a{
     background: #d8e2c0;
@@ -20,3 +17,8 @@
 .b{
     background: #ccd9ef;
 }
+
+table tbody tr:nth-child(odd):hover td { background-color: #f31010; }
+
+
+
